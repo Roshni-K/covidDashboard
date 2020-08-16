@@ -3,7 +3,7 @@ import axios from "axios";
 
 export const fetchDashboardAPI = () => (dispatch) => {
     axios
-        .get("https://wwww.theunpaidmedia.com//dashboard", {
+        .get("https://www.theunpaidmedia.com/dashboard", {
             crossDomain: true
         })
         .then((response) => {
