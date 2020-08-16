@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Provider } from "react-redux";
 import { applyMiddleware, createStore, compose } from "redux";
 import thunkMiddleware from "redux-thunk";
-import rootReducer from "../covidDashboard/CovidDasboardContainer/reducers";
+import rootReducer from "./CovidDasboardContainer/reducers";
 import loggerMiddleware from "./logger";
 import { Route, Router } from "react-router-dom";
 import CovidDashboard from './CovidDasboardContainer/containers/CovidDashboard'
