@@ -386,9 +386,6 @@ function Timeseries({timeseries, dates, chartType, isUniform, isLog}) {
                   <h5 className="title">
                     {t(capitalize(statisticConfig.displayName))}
                   </h5>
-                  <h5 className="title">
-                    {formatDate(highlightedDate, 'dd MMMM')}
-                  </h5>
                   <div className="stats-bottom">
                     <h2>
                       {formatNumber(
@@ -411,6 +408,9 @@ function Timeseries({timeseries, dates, chartType, isUniform, isLog}) {
                       statistic
                     )}`}</h6>
                   </div>
+                  <h5 className="title">
+                    {formatDate(highlightedDate, 'dd MMMM')}
+                  </h5>
                 </div>
               )}
               <svg

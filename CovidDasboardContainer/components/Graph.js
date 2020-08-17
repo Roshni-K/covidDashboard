@@ -14,7 +14,7 @@ function GraphView (){
         districtName: null,
       });
     const {data: timeseries} = useStickySWR(
-        `${API_ROOT_URL}/timeseries.min.json`,
+        `https://www.theunpaidmedia.com/dashboard/timeseries_min`,
         fetcher,
         {
           revalidateOnMount: true,
@@ -23,7 +23,7 @@ function GraphView (){
       );
     
       const {data} = useStickySWR(
-        `${API_ROOT_URL}/data${date ? `-${date}` : ''}.min.json`,
+        `https://www.theunpaidmedia.com/dashboard/data_min`,
         fetcher,
         {
           revalidateOnMount: true,

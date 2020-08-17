@@ -67,6 +67,7 @@
 }
 
 #indiadashboard {
+  font-weight: 500;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
 }
@@ -98,7 +99,7 @@
   color: red;
   border-radius: 5px;
   text-align: center;
-  margin: 6px;
+  margin: 2px;
   padding: 20px 0 20px 0;
 }
 .active {
@@ -106,7 +107,7 @@
   color: #017cff;
   border-radius: 5px;
   text-align: center;
-  margin: 6px;
+  margin: 2px;
   padding: 20px 0 20px 0;
 }
 .delta {
@@ -132,7 +133,7 @@
   color: #29a746;
   border-radius: 5px;
   text-align: center;
-  margin: 6px;
+  margin: 2px;
   padding: 20px 0 20px 0;
 }
 .deceased {
@@ -140,7 +141,7 @@
   color: #798188;
   border-radius: 5px;
   text-align: center;
-  margin: 6px;
+  margin: 2px;
   padding: 20px 0 20px 0;
 }
 #table {
@@ -238,7 +239,6 @@
     margin-bottom: 6%;
     grid-template-columns: 100%;
     grid-gap: 2em;
-    margin-left: 4%;
   }
   #kpiDashboard {
     margin-top: 7%;
@@ -269,14 +269,14 @@
     padding: 8px;
   }
   .title {
-    font-size: 8px;
+    font-size: 10px;
   }
   .delta {
-    font-size: 7px;
+    font-size: 9px;
     padding: 2px;
   }
   .value {
-    font-size: 8px;
+    font-size: 10px;
   }
   .kpitab {
     font-size: 7px;

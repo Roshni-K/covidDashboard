@@ -11,11 +11,11 @@ export const worldDashBoard = {
       'deceased':{value:'death_g', delta:'death_g_diff', title:'Deceased' },
 };
 export const KPIHeader = {
-      "State_confirmed_rate": "Confirmed per million",
+      "State_confirmed_rate": "Confirmed per lakh",
       "State_recovery_rate": "Recovery Rate",
       "State_death_rate": "Death Rate",
       "State_positivity_rate": "Positivity Rate",
-      "State_testing_rate": "Testing per million",
+      "State_testing_rate": "Testing per lakh",
       "State": "Confirmed cases"};
       
 export const mapDataJson = [

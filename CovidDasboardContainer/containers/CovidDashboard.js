@@ -107,7 +107,7 @@ class CovidDasboard extends Component {
         <div id='graph'><Graph /></div>
         <div className='footer'>
           <div>Contact Us At</div>
-          <div>contact@theunpaidmedia</div>
+          <div>admin@theunpaidmedia.com</div>
           <div>The Unpaid Media <span>&#169;</span> 2020. All Rights Reserved.</div>
         </div>
       </div>

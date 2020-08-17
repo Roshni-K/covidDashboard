@@ -13,14 +13,14 @@ const Actions = ({setDate, dates}) => {
   const [newUpdate, setNewUpdate] = useLocalStorage('newUpdate', false);
   const [lastViewedLog, setLastViewedLog] = useLocalStorage('lastViewedLog', 0);
   const [isTimelineMode, setIsTimelineMode] = useState(false);
-
-  const {data: updates} = useSWR(
-    'https://api.covid19india.org/updatelog/log.json',
-    fetcher,
-    {
-      revalidateOnFocus: true,
-    }
-  );
+  const updates = undefined
+  // const {data: updates} = useSWR(
+  //   'https://api.covid19india.org/updatelog/log.json',
+  //   fetcher,
+  //   {
+  //     revalidateOnFocus: true,
+  //   }
+  // );
 
   useEffect(() => {
     if (updates !== undefined) {

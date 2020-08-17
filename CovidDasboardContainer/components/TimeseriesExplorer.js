@@ -183,7 +183,7 @@ function TimeseriesExplorer({
           <PinIcon />
         </div> */}
 
-        <h1>{t('Spread Trends')}</h1>
+        <h1>{t('Covid Trends')}</h1>
         <div className="tabs">
           {Object.entries(TIMESERIES_CHART_TYPES).map(
             ([ctype, value], index) => (
